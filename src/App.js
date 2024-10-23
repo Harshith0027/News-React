@@ -72,7 +72,7 @@ const App =()=>{
             />
           </div>
           <Routes>
-            <Route exact path="/" key={'general'}  element={<NewsPanel setProgress={setProg} pageSize={pageContentSize} country={'us'} category="general" apiKey={"61eb6c60cf484db3a2a6185690ff1bbc"} />} />
+            <Route exact path="/News-React" key={'general'}  element={<NewsPanel setProgress={setProg} pageSize={pageContentSize} country={'us'} category="general" apiKey={"61eb6c60cf484db3a2a6185690ff1bbc"} />} />
           </Routes>
           <Routes>
             <Route exact path="/business" key={'business'}  element={<NewsPanel setProgress={setProg} pageSize={pageContentSize} country={'us'} category="business" apiKey={"61eb6c60cf484db3a2a6185690ff1bbc"} />} />
